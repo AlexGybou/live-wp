@@ -1,0 +1,42 @@
+.single-post, .single-projets {
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 32px;
+  }
+
+  .article-content {
+    background: #f7f7f7;
+  }
+
+  .entry-meta {
+    text-align: center;
+  }
+
+  .post-thumbnail {
+    margin-top: 20px;
+  }
+
+  .sidebar {
+    margin-top: 0.67em;
+
+    h3, h4 {
+      font-weight: 700;
+      text-align: center;
+      margin-top: 32px;
+    }
+
+    > ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      > li {
+        margin: 25px auto;
+      }
+    }
+  }
+}
